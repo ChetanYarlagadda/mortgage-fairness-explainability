@@ -1,0 +1,11 @@
+[project]
+name = "mortgage-fairness-explainability"
+version = "1.0.0"
+description = "Explainable and fair credit decisions on HMDA mortgage data: denial models tuned with Optuna, SHAP vs LIME, a fairness audit by race, ethnicity, sex and age with fairlearn, and mitigation trade-offs."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]
