@@ -1,0 +1,5 @@
+reported_reason,expected_group,n_denials,match_rate,match_rate_other_reasons,lift
+Debt-to-income ratio,Debt-to-income,1406,0.823613,0.117366,7.01745
+Collateral,"Collateral (LTV, value)",514,0.498054,0.0773092,6.44237
+Insufficient cash,"Collateral (LTV, value)",245,0.191837,0.135094,1.42003
+Application incomplete,Missing fields,444,0.376126,0.0343362,10.9542

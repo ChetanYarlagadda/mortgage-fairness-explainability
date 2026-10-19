@@ -1,0 +1,71 @@
+rotation,method,group,p0,threshold0,p1,threshold1
+0,Group thresholds: demographic parity,American Indian / Alaska Native,0.5304,0.500764,0.4696,-inf
+0,Group thresholds: demographic parity,Asian,0.811708,0.468674,0.188292,0.010762
+0,Group thresholds: demographic parity,Black,0.631091,0.0942059,0.368909,-inf
+0,Group thresholds: demographic parity,Joint (two races),0.0301333,0.935111,0.969867,0.821536
+0,Group thresholds: demographic parity,Not available,0.585067,0.288776,0.414933,0.127806
+0,Group thresholds: demographic parity,Other minority races,0.045625,0.951441,0.954375,0.251095
+0,Group thresholds: demographic parity,White,0.963667,0.560433,0.0363333,0.375731
+0,Group thresholds: equal opportunity,American Indian / Alaska Native,0.171,0.778911,0.829,0.500764
+0,Group thresholds: equal opportunity,Asian,0.3714,0.834537,0.6286,0.468674
+0,Group thresholds: equal opportunity,Black,0.462,0.154392,0.538,0.106141
+0,Group thresholds: equal opportunity,Joint (two races),0.378,0.821536,0.622,0.357937
+0,Group thresholds: equal opportunity,Not available,0.365,0.632566,0.635,0.582755
+0,Group thresholds: equal opportunity,Other minority races,0.0155,0.951441,0.9845,0.251095
+0,Group thresholds: equal opportunity,White,0.899667,0.375731,0.100333,0.319179
+1,Group thresholds: demographic parity,American Indian / Alaska Native,0.4355,0.768289,0.5645,-inf
+1,Group thresholds: demographic parity,Asian,0.20675,0.310592,0.79325,0.0975508
+1,Group thresholds: demographic parity,Black,0.24275,0.232638,0.75725,0.0817241
+1,Group thresholds: demographic parity,Joint (two races),0.219364,0.808213,0.780636,0.138802
+1,Group thresholds: demographic parity,Not available,0.774565,0.36286,0.225435,0.121177
+1,Group thresholds: demographic parity,Other minority races,0.0673333,0.950627,0.932667,0.325921
+1,Group thresholds: demographic parity,White,0.8955,0.552193,0.1045,0.46199
+1,Group thresholds: equal opportunity,American Indian / Alaska Native,0.00581633,0.989529,0.994184,0.768289
+1,Group thresholds: equal opportunity,Asian,0.122222,0.84385,0.877778,0.537936
+1,Group thresholds: equal opportunity,Black,0.3875,0.232638,0.6125,0.0817241
+1,Group thresholds: equal opportunity,Joint (two races),0.156875,0.808213,0.843125,0.138802
+1,Group thresholds: equal opportunity,Not available,0.785,0.36286,0.215,0.121177
+1,Group thresholds: equal opportunity,Other minority races,0.0516667,0.950627,0.948333,0.325921
+1,Group thresholds: equal opportunity,White,0.616,0.552193,0.384,0.46199
+2,Group thresholds: demographic parity,American Indian / Alaska Native,0.5762,0.614147,0.4238,-inf
+2,Group thresholds: demographic parity,Asian,0.355222,0.760556,0.644778,0.480873
+2,Group thresholds: demographic parity,Black,0.513133,0.712071,0.486867,-inf
+2,Group thresholds: demographic parity,Joint (two races),0.17975,0.864786,0.82025,0.353809
+2,Group thresholds: demographic parity,Not available,0.879286,0.330426,0.120714,0.244014
+2,Group thresholds: demographic parity,Other minority races,0.774,0.130828,0.226,-inf
+2,Group thresholds: demographic parity,White,0.852222,0.609724,0.147778,0.572436
+2,Group thresholds: equal opportunity,American Indian / Alaska Native,0.0285,0.932553,0.9715,0.614147
+2,Group thresholds: equal opportunity,Asian,0.496,0.760556,0.504,0.480873
+2,Group thresholds: equal opportunity,Black,0.62,0.755763,0.38,0.712071
+2,Group thresholds: equal opportunity,Joint (two races),0.004,0.353809,0.996,0.189488
+2,Group thresholds: equal opportunity,Not available,0.941333,0.597199,0.0586667,0.356646
+2,Group thresholds: equal opportunity,Other minority races,0.124,0.717656,0.876,0.130828
+2,Group thresholds: equal opportunity,White,0.0773333,0.572436,0.922667,0.439903
+3,Group thresholds: demographic parity,American Indian / Alaska Native,0.5494,0.376204,0.4506,-inf
+3,Group thresholds: demographic parity,Asian,0.949091,0.160212,0.0509091,0.0174464
+3,Group thresholds: demographic parity,Black,0.458687,0.315485,0.541313,-inf
+3,Group thresholds: demographic parity,Joint (two races),0.070878,0.953206,0.929122,0.505475
+3,Group thresholds: demographic parity,Not available,0.554722,0.679598,0.445278,0.316517
+3,Group thresholds: demographic parity,Other minority races,0.3485,0.477891,0.6515,-inf
+3,Group thresholds: demographic parity,White,0.00659091,0.731713,0.993409,0.593359
+3,Group thresholds: equal opportunity,American Indian / Alaska Native,0.228,0.63536,0.772,0.376204
+3,Group thresholds: equal opportunity,Asian,0.246667,0.778407,0.753333,0.378337
+3,Group thresholds: equal opportunity,Black,0.62,0.685773,0.38,0.315485
+3,Group thresholds: equal opportunity,Joint (two races),0.0278889,0.953206,0.972111,0.505475
+3,Group thresholds: equal opportunity,Not available,0.353,0.679598,0.647,0.316517
+3,Group thresholds: equal opportunity,Other minority races,0.00428571,0.996655,0.995714,0.477891
+3,Group thresholds: equal opportunity,White,0.352,0.593359,0.648,0.443484
+4,Group thresholds: demographic parity,American Indian / Alaska Native,0.646,0.788588,0.354,-inf
+4,Group thresholds: demographic parity,Asian,0.785,0.346584,0.215,0.0139294
+4,Group thresholds: demographic parity,Black,0.453467,0.542552,0.546533,-inf
+4,Group thresholds: demographic parity,Joint (two races),0.527,0.817356,0.473,0.552034
+4,Group thresholds: demographic parity,Not available,0.5192,0.492714,0.4808,0.308567
+4,Group thresholds: demographic parity,Other minority races,0.646,0.39214,0.354,-inf
+4,Group thresholds: demographic parity,White,0.026766,0.726724,0.973234,0.540784
+4,Group thresholds: equal opportunity,American Indian / Alaska Native,0.285,0.828912,0.715,0.788588
+4,Group thresholds: equal opportunity,Asian,0.775,0.771683,0.225,0.688934
+4,Group thresholds: equal opportunity,Black,0.0151961,0.962495,0.984804,0.542552
+4,Group thresholds: equal opportunity,Joint (two races),0.6275,0.817356,0.3725,0.552034
+4,Group thresholds: equal opportunity,Not available,0.425,0.63789,0.575,0.536214
+4,Group thresholds: equal opportunity,Other minority races,0.15,0.570249,0.85,0.39214
+4,Group thresholds: equal opportunity,White,0.811,0.540784,0.189,0.371012

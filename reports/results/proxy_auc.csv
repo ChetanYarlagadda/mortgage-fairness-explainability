@@ -1,0 +1,5 @@
+target,test_rows,positive_share,auc_model_features,auc_tract_minority_share_only,auc_tract_minority_share_either_direction
+Black (vs White),6870,0.0260553,0.746375,0.709746,0.709746
+Hispanic or Latino (vs not),7596,0.198657,0.782668,0.744737,0.744737
+Female (vs male),5063,0.393838,0.617832,0.499857,0.500143
+Age 62 or older,9498,0.191935,0.778977,0.329088,0.670912

@@ -1,0 +1,10 @@
+group,mean_abs_shap
+Lender,0.494094
+Debt-to-income,0.393692
+"Collateral (LTV, value)",0.315589
+Underwriting channel,0.16951
+Location,0.155112
+Income and loan size,0.129269
+Missing fields,0.0897183
+Co-applicant,0.0517604
+Loan terms,0.0507526

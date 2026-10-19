@@ -1,0 +1,28 @@
+comparison,stratum,k,top_k_overlap,rank_corr_abs
+LIME seed 0 vs seed 1,"Approved, not flagged",1,1,0.664315
+LIME seed 0 vs seed 1,"Approved, not flagged",3,0.666667,0.664315
+LIME seed 0 vs seed 1,"Approved, not flagged",5,0.66,0.664315
+LIME seed 0 vs seed 1,"Denied, flagged",1,1,0.671084
+LIME seed 0 vs seed 1,"Denied, flagged",3,0.8,0.671084
+LIME seed 0 vs seed 1,"Denied, flagged",5,0.58,0.671084
+LIME seed 0 vs seed 1,Near the threshold,1,1,0.653695
+LIME seed 0 vs seed 1,Near the threshold,3,0.766667,0.653695
+LIME seed 0 vs seed 1,Near the threshold,5,0.62,0.653695
+SHAP vs LIME,"Approved, not flagged",1,0,-0.100445
+SHAP vs LIME,"Approved, not flagged",3,0.166667,-0.100445
+SHAP vs LIME,"Approved, not flagged",5,0.2,-0.100445
+SHAP vs LIME,"Denied, flagged",1,0,0.022069
+SHAP vs LIME,"Denied, flagged",3,0.333333,0.022069
+SHAP vs LIME,"Denied, flagged",5,0.24,0.022069
+SHAP vs LIME,Near the threshold,1,0.1,0.0648276
+SHAP vs LIME,Near the threshold,3,0.266667,0.0648276
+SHAP vs LIME,Near the threshold,5,0.24,0.0648276
+"SHAP vs LIME, missing-value flags excluded","Approved, not flagged",1,0.2,-0.0294466
+"SHAP vs LIME, missing-value flags excluded","Approved, not flagged",3,0.233333,-0.0294466
+"SHAP vs LIME, missing-value flags excluded","Approved, not flagged",5,0.3,-0.0294466
+"SHAP vs LIME, missing-value flags excluded","Denied, flagged",1,1,0.212945
+"SHAP vs LIME, missing-value flags excluded","Denied, flagged",3,0.433333,0.212945
+"SHAP vs LIME, missing-value flags excluded","Denied, flagged",5,0.48,0.212945
+"SHAP vs LIME, missing-value flags excluded",Near the threshold,1,0.6,0.211067
+"SHAP vs LIME, missing-value flags excluded",Near the threshold,3,0.333333,0.211067
+"SHAP vs LIME, missing-value flags excluded",Near the threshold,5,0.36,0.211067

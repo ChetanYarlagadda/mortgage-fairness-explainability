@@ -1,0 +1,55 @@
+attribute,specification,group,n,odds_ratio,ci_low,ci_high,p_value,n_params,converged
+race,Unadjusted,American Indian / Alaska Native,337,2.48392,1.84273,3.34823,2.33945e-09,7,True
+race,Unadjusted,Asian,3397,1.3091,1.15387,1.48523,2.88511e-05,7,True
+race,Unadjusted,Black,893,2.09308,1.71778,2.55037,2.36393e-13,7,True
+race,Unadjusted,Joint (two races),1333,0.834604,0.660481,1.05463,0.129914,7,True
+race,Unadjusted,Not available,7923,1.2065,1.10153,1.32147,5.29511e-05,7,True
+race,Unadjusted,Other minority races,175,1.95754,1.24953,3.06672,0.00336111,7,True
+race,Application controls,American Indian / Alaska Native,337,2.08847,1.4192,3.07335,0.000186882,63,True
+race,Application controls,Asian,3397,1.36289,1.14468,1.6227,0.000505481,63,True
+race,Application controls,Black,893,1.22492,0.920079,1.63075,0.164682,63,True
+race,Application controls,Joint (two races),1333,0.948965,0.689514,1.30604,0.747857,63,True
+race,Application controls,Not available,7923,1.22626,1.08969,1.37994,0.00070937,63,True
+race,Application controls,Other minority races,175,1.75994,0.952977,3.25021,0.0709012,63,True
+race,Application controls + lender,American Indian / Alaska Native,337,2.0993,1.3759,3.20304,0.000580898,151,True
+race,Application controls + lender,Asian,3397,1.27349,1.06409,1.52411,0.0083465,151,True
+race,Application controls + lender,Black,893,1.1733,0.868173,1.58566,0.298317,151,True
+race,Application controls + lender,Joint (two races),1333,0.991052,0.721939,1.36048,0.955659,151,True
+race,Application controls + lender,Not available,7923,1.1838,1.04344,1.34305,0.00878318,151,True
+race,Application controls + lender,Other minority races,175,1.54663,0.851475,2.80931,0.152142,151,True
+ethnicity,Unadjusted,Hispanic or Latino,7475,1.94795,1.79073,2.11898,2.2045e-54,4,True
+ethnicity,Unadjusted,Joint (Hispanic and not),2111,0.863251,0.712444,1.04598,0.133331,4,True
+ethnicity,Unadjusted,Not available,7300,1.22711,1.11308,1.35281,3.90263e-05,4,True
+ethnicity,Application controls,Hispanic or Latino,7475,1.30656,1.15948,1.47231,1.14227e-05,60,True
+ethnicity,Application controls,Joint (Hispanic and not),2111,0.891489,0.694166,1.1449,0.368188,60,True
+ethnicity,Application controls,Not available,7300,1.24365,1.09589,1.41135,0.00072808,60,True
+ethnicity,Application controls + lender,Hispanic or Latino,7475,1.39161,1.22788,1.57718,2.28762e-07,148,True
+ethnicity,Application controls + lender,Joint (Hispanic and not),2111,0.882122,0.6836,1.1383,0.334941,148,True
+ethnicity,Application controls + lender,Not available,7300,1.25194,1.09488,1.43153,0.00101858,148,True
+sex,Unadjusted,Female,10345,1.00442,0.919025,1.09774,0.922572,4,True
+sex,Unadjusted,Joint (male and female),19333,0.617427,0.567801,0.67139,1.65719e-29,4,True
+sex,Unadjusted,Not available,2787,0.924587,0.797683,1.07168,0.29791,4,True
+sex,Application controls,Female,10345,0.957581,0.850772,1.0778,0.472551,60,True
+sex,Application controls,Joint (male and female),19333,0.72248,0.593953,0.878819,0.00114396,60,True
+sex,Application controls,Not available,2787,0.80512,0.64561,1.00404,0.0543288,60,True
+sex,Application controls + lender,Female,10345,0.971943,0.857906,1.10114,0.654926,148,True
+sex,Application controls + lender,Joint (male and female),19333,0.741154,0.603896,0.909608,0.00414794,148,True
+sex,Application controls + lender,Not available,2787,0.863763,0.692544,1.07731,0.193834,148,True
+age,Unadjusted,25-34,11579,0.743208,0.672995,0.820746,4.58536e-09,8,True
+age,Unadjusted,45-54,8273,0.946018,0.853437,1.04864,0.290918,8,True
+age,Unadjusted,55-64,7486,0.8352,0.748453,0.932,0.00128792,8,True
+age,Unadjusted,65-74,5118,0.605267,0.526953,0.69522,1.22648e-12,8,True
+age,Unadjusted,<25,2158,1.07495,0.915317,1.26243,0.378212,8,True
+age,Unadjusted,>74,1656,0.709686,0.575185,0.87564,0.00138055,8,True
+age,Application controls,25-34,11579,0.718511,0.633686,0.81469,2.50205e-07,64,True
+age,Application controls,45-54,8273,0.883737,0.770994,1.01297,0.0758998,64,True
+age,Application controls,55-64,7486,0.80284,0.690858,0.932975,0.00416756,64,True
+age,Application controls,65-74,5118,0.614248,0.503728,0.749016,1.46809e-06,64,True
+age,Application controls,<25,2158,0.835086,0.676739,1.03049,0.0929473,64,True
+age,Application controls,>74,1656,0.721668,0.536981,0.969874,0.0305549,64,True
+age,Application controls + lender,25-34,11579,0.715606,0.627944,0.815505,5.1957e-07,152,True
+age,Application controls + lender,45-54,8273,0.893063,0.77473,1.02947,0.118872,152,True
+age,Application controls + lender,55-64,7486,0.827154,0.708605,0.965536,0.0162002,152,True
+age,Application controls + lender,65-74,5118,0.629162,0.513165,0.77138,8.33089e-06,152,True
+age,Application controls + lender,<25,2158,0.872043,0.698534,1.08865,0.226431,152,True
+age,Application controls + lender,>74,1656,0.781054,0.575798,1.05948,0.112154,152,True

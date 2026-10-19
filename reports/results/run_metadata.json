@@ -1,0 +1,118 @@
+{
+ "generated_utc": "2026-10-10T13:33:50+00:00",
+ "quick": false,
+ "settings": {
+  "seed": 0,
+  "n_folds": 5,
+  "subsample": 1.0,
+  "top_lenders": 40,
+  "trials": [
+   [
+    "LightGBM",
+    30
+   ],
+   [
+    "XGBoost",
+    20
+   ],
+   [
+    "CatBoost",
+    10
+   ]
+  ],
+  "timeout_s": [
+   [
+    "LightGBM",
+    150.0
+   ],
+   [
+    "XGBoost",
+    150.0
+   ],
+   [
+    "CatBoost",
+    200.0
+   ]
+  ],
+  "lr_cs": [
+   0.01,
+   0.1,
+   1.0,
+   10.0
+  ],
+  "n_boot": 1000,
+  "n_boot_mitigation": 500,
+  "min_group_n": 300,
+  "mitigation_attribute": "race",
+  "shap_rows": 3000,
+  "shap_check_rows": 200,
+  "lime_per_stratum": 10,
+  "lime_samples": 5000,
+  "lime_seeds": [
+   0,
+   1
+  ],
+  "proxy_rounds": 300
+ },
+ "data": {
+  "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?states=AZ&years=2025&loan_purposes=1",
+  "final_url": "https://files.ffiec.cfpb.gov/data-browser/datasets/2025/filtered-queries/snapshot/c40c2e35d40874f4b226f7972656c498.csv",
+  "sha256": "59e9de6843d9d90dc51d1d05484610fcb5928315aaaad0d79c795974e80274dd",
+  "sha256_expected": "59e9de6843d9d90dc51d1d05484610fcb5928315aaaad0d79c795974e80274dd",
+  "sha256_matches": true,
+  "bytes": "63179778",
+  "last_modified": "Tue, 21 Jul 2026 21:35:41 GMT",
+  "raw_rows": 167230,
+  "population_rows": 47509,
+  "analysed_rows": 47509,
+  "denied": 3502,
+  "denial_rate": 0.07371234923909153,
+  "lenders": 554,
+  "api_checks": 34,
+  "api_count_matches": 34,
+  "api_max_sum_rel_diff": 0.0
+ },
+ "cache_keys": {
+  "models": "48fd25705bd5",
+  "crossfit": "22c536b524de",
+  "lime": "1d4264215608"
+ },
+ "stage_seconds": {
+  "data": 2.0,
+  "models": 0.0,
+  "crossfit": 0.0,
+  "audit": 6.4,
+  "mitigation": 7.2,
+  "odds_ratios": 4.6,
+  "proxy": 1.6,
+  "ablation": 6.1,
+  "explain": 1.7
+ },
+ "total_seconds": 58.0,
+ "shap_check": {
+  "rows": 200,
+  "max_abs_diff": 0.0,
+  "error": "",
+  "additivity_max_abs_err": 1.4654943925052066e-14
+ },
+ "mlflow_logged": true,
+ "rows": {
+  "audit": 23,
+  "odds": 54,
+  "proxy": 4,
+  "ablation": 11
+ },
+ "versions": {
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3",
+  "scikit-learn": "1.9.1",
+  "lightgbm": "4.7.0",
+  "xgboost": "3.4.1",
+  "catboost": "1.2.10",
+  "optuna": "5.0.0",
+  "shap": "0.53.0",
+  "lime": "0.2.0.1",
+  "fairlearn": "0.14.0"
+ }
+}

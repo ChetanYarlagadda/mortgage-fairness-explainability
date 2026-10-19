@@ -1,0 +1,276 @@
+{
+ "actions_taken": {
+  "parameters": {
+   "state": "AZ",
+   "actions_taken": "1,2,3,4,5,6,7,8",
+   "loan_purposes": "1"
+  },
+  "aggregations": [
+   {
+    "count": 1263,
+    "sum": 537325000.0,
+    "actions_taken": "8",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 2917,
+    "sum": 1209665000.0,
+    "actions_taken": "2",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 95029,
+    "sum": 41062455000.0,
+    "actions_taken": "1",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 11691,
+    "sum": 4337235000.0,
+    "actions_taken": "3",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 21023,
+    "sum": 9058475000.0,
+    "actions_taken": "4",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 31963,
+    "sum": 13398365000.0,
+    "actions_taken": "6",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 3114,
+    "sum": 956310000.0,
+    "actions_taken": "5",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 230,
+    "sum": 82770000.0,
+    "actions_taken": "7",
+    "loan_purposes": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "loan_types": {
+  "parameters": {
+   "state": "AZ",
+   "loan_types": "1,2,3,4",
+   "loan_purposes": "1"
+  },
+  "aggregations": [
+   {
+    "count": 1284,
+    "sum": 348200000.0,
+    "loan_types": "4",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 17728,
+    "sum": 7600950000.0,
+    "loan_types": "3",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 41689,
+    "sum": 15253595000.0,
+    "loan_types": "2",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 106529,
+    "sum": 47439855000.0,
+    "loan_types": "1",
+    "loan_purposes": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "lien_statuses": {
+  "parameters": {
+   "state": "AZ",
+   "loan_purposes": "1",
+   "lien_statuses": "1,2"
+  },
+  "aggregations": [
+   {
+    "count": 6441,
+    "sum": 469435000.0,
+    "loan_purposes": "1",
+    "lien_statuses": "2"
+   },
+   {
+    "count": 160789,
+    "sum": 70173165000.0,
+    "loan_purposes": "1",
+    "lien_statuses": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "construction_methods": {
+  "parameters": {
+   "state": "AZ",
+   "loan_purposes": "1",
+   "construction_methods": "1,2"
+  },
+  "aggregations": [
+   {
+    "count": 12613,
+    "sum": 2401285000.0,
+    "loan_purposes": "1",
+    "construction_methods": "2"
+   },
+   {
+    "count": 154617,
+    "sum": 68241315000.0,
+    "loan_purposes": "1",
+    "construction_methods": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "races": {
+  "parameters": {
+   "state": "AZ",
+   "races": "White,Asian,Black or African American,American Indian or Alaska Native,Native Hawaiian or Other Pacific Islander,2 or more minority races,Joint,Free Form Text Only,Race Not Available",
+   "loan_purposes": "1"
+  },
+  "aggregations": [
+   {
+    "count": 7071,
+    "sum": 3355115000.0,
+    "races": "Asian",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 4164,
+    "sum": 1823650000.0,
+    "races": "Joint",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 4016,
+    "sum": 1550320000.0,
+    "races": "Black or African American",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 57547,
+    "sum": 26408825000.0,
+    "races": "Race Not Available",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 91733,
+    "sum": 36696255000.0,
+    "races": "White",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 22,
+    "sum": 7090000.0,
+    "races": "Free Form Text Only",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 358,
+    "sum": 124940000.0,
+    "races": "Native Hawaiian or Other Pacific Islander",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 2006,
+    "sum": 559520000.0,
+    "races": "American Indian or Alaska Native",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 313,
+    "sum": 116885000.0,
+    "races": "2 or more minority races",
+    "loan_purposes": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "ethnicities": {
+  "parameters": {
+   "state": "AZ",
+   "loan_purposes": "1",
+   "ethnicities": "Hispanic or Latino,Not Hispanic or Latino,Joint,Ethnicity Not Available,Free Form Text Only"
+  },
+  "aggregations": [
+   {
+    "count": 75599,
+    "sum": 32381235000.0,
+    "loan_purposes": "1",
+    "ethnicities": "Not Hispanic or Latino"
+   },
+   {
+    "count": 54030,
+    "sum": 25353020000.0,
+    "loan_purposes": "1",
+    "ethnicities": "Ethnicity Not Available"
+   },
+   {
+    "count": 30790,
+    "sum": 10058880000.0,
+    "loan_purposes": "1",
+    "ethnicities": "Hispanic or Latino"
+   },
+   {
+    "count": 19,
+    "sum": 7745000.0,
+    "loan_purposes": "1",
+    "ethnicities": "Free Form Text Only"
+   },
+   {
+    "count": 6792,
+    "sum": 2841720000.0,
+    "loan_purposes": "1",
+    "ethnicities": "Joint"
+   }
+  ],
+  "servedFrom": "cache"
+ },
+ "sexes": {
+  "parameters": {
+   "state": "AZ",
+   "sexes": "Male,Female,Joint,Sex Not Available",
+   "loan_purposes": "1"
+  },
+  "aggregations": [
+   {
+    "count": 40987,
+    "sum": 19990045000.0,
+    "sexes": "Sex Not Available",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 55034,
+    "sum": 23986060000.0,
+    "sexes": "Joint",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 27228,
+    "sum": 8959730000.0,
+    "sexes": "Female",
+    "loan_purposes": "1"
+   },
+   {
+    "count": 43981,
+    "sum": 17706765000.0,
+    "sexes": "Male",
+    "loan_purposes": "1"
+   }
+  ],
+  "servedFrom": "cache"
+ }
+}

@@ -1,0 +1,10 @@
+step,rows,denied,denial_rate
+All 2025 Arizona home-purchase records,167230,11691,0.0699097
+Originated (1) or denied (3),106720,11691,0.109548
+Conventional loan,69248,7966,0.115036
+First lien,64918,7095,0.109292
+Principal residence,52887,5862,0.11084
+Site-built,48393,3720,0.0768706
+Single unit,48192,3678,0.0763197
+Not partially exempt (no 'Exempt' / 1111 codes),48000,3665,0.0763542
+"Not business purpose, reverse mortgage or open-end line",47509,3502,0.0737123

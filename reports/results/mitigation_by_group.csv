@@ -1,0 +1,93 @@
+method,attribute,group,n,approval_rate,true_approval_rate,denial_recall
+Baseline (unaware),race,White,33451,0.962632,0.995636,0.486675
+Baseline (unaware),race,Not available,7923,0.95532,0.995466,0.497674
+Baseline (unaware),race,Asian,3397,0.952016,0.998387,0.530201
+Baseline (unaware),race,Joint (two races),1333,0.966242,0.995223,0.506494
+Baseline (unaware),race,Black,893,0.909295,0.989664,0.613445
+Baseline (unaware),race,American Indian / Alaska Native,337,0.928783,0.996491,0.442308
+Baseline (unaware),race,Other minority races,175,0.931429,0.986928,0.454545
+Baseline (unaware),ethnicity,Not Hispanic or Latino,30623,0.964798,0.996024,0.494613
+Baseline (unaware),ethnicity,Hispanic or Latino,7475,0.935652,0.994243,0.506865
+Baseline (unaware),ethnicity,Not available,7300,0.96,0.995399,0.464413
+Baseline (unaware),ethnicity,Joint (Hispanic and not),2111,0.963051,0.995988,0.598291
+Baseline (unaware),sex,Joint (male and female),19333,0.969482,0.996222,0.486461
+Baseline (unaware),sex,Male,15044,0.952672,0.995924,0.502682
+Baseline (unaware),sex,Female,10345,0.949541,0.994282,0.519423
+Baseline (unaware),sex,Not available,2787,0.962325,0.995316,0.413333
+Baseline (unaware),age,25-34,11579,0.965541,0.995844,0.470745
+Baseline (unaware),age,35-44,11209,0.953966,0.996488,0.501044
+Baseline (unaware),age,45-54,8273,0.95576,0.996053,0.5
+Baseline (unaware),age,55-64,7486,0.958322,0.995248,0.51476
+Baseline (unaware),age,65-74,5118,0.966979,0.994839,0.525547
+Baseline (unaware),age,<25,2158,0.95088,0.993371,0.472081
+Baseline (unaware),age,>74,1656,0.963768,0.994205,0.495146
+Baseline (unaware),age,Not available,30,0.966667,1,0.25
+Reweighing,race,White,33451,0.962273,0.995379,0.488423
+Reweighing,race,Not available,7923,0.955572,0.995466,0.494574
+Reweighing,race,Asian,3397,0.951722,0.998064,0.530201
+Reweighing,race,Joint (two races),1333,0.966992,0.995223,0.493506
+Reweighing,race,Black,893,0.905935,0.98708,0.621849
+Reweighing,race,American Indian / Alaska Native,337,0.928783,0.996491,0.442308
+Reweighing,race,Other minority races,175,0.925714,0.986928,0.5
+Reweighing,ethnicity,Not Hispanic or Latino,30623,0.964536,0.99592,0.497178
+Reweighing,ethnicity,Hispanic or Latino,7475,0.935117,0.993183,0.503432
+Reweighing,ethnicity,Not available,7300,0.959726,0.995251,0.466192
+Reweighing,ethnicity,Joint (Hispanic and not),2111,0.963051,0.995988,0.598291
+Reweighing,sex,Joint (male and female),19333,0.969068,0.996003,0.490196
+Reweighing,sex,Male,15044,0.952406,0.995633,0.502682
+Reweighing,sex,Female,10345,0.949348,0.993964,0.518313
+Reweighing,sex,Not available,2787,0.962325,0.995316,0.413333
+Reweighing,age,25-34,11579,0.965368,0.995659,0.470745
+Reweighing,age,35-44,11209,0.953966,0.996586,0.502088
+Reweighing,age,45-54,8273,0.954793,0.995395,0.504464
+Reweighing,age,55-64,7486,0.957521,0.994672,0.51845
+Reweighing,age,65-74,5118,0.967175,0.995045,0.525547
+Reweighing,age,<25,2158,0.95088,0.992861,0.467005
+Reweighing,age,>74,1656,0.964372,0.993561,0.475728
+Reweighing,age,Not available,30,0.966667,1,0.25
+Group thresholds: demographic parity,race,White,33451,0.9603,0.99416,0.500655
+Group thresholds: demographic parity,race,Not available,7923,0.959359,0.996702,0.462016
+Group thresholds: demographic parity,race,Asian,3397,0.958198,0.999032,0.466443
+Group thresholds: demographic parity,race,Joint (two races),1333,0.957239,0.986465,0.519481
+Group thresholds: demographic parity,race,Black,893,0.950728,0.994832,0.336134
+Group thresholds: demographic parity,race,American Indian / Alaska Native,337,0.952522,0.982456,0.211538
+Group thresholds: demographic parity,race,Other minority races,175,0.954286,1,0.363636
+Group thresholds: demographic parity,ethnicity,Not Hispanic or Latino,30623,0.9647,0.994978,0.480759
+Group thresholds: demographic parity,ethnicity,Hispanic or Latino,7475,0.934983,0.991668,0.493135
+Group thresholds: demographic parity,ethnicity,Not available,7300,0.96274,0.996141,0.437722
+Group thresholds: demographic parity,ethnicity,Joint (Hispanic and not),2111,0.963051,0.994985,0.581197
+Group thresholds: demographic parity,sex,Joint (male and female),19333,0.968396,0.995126,0.487395
+Group thresholds: demographic parity,sex,Male,15044,0.953869,0.994978,0.478927
+Group thresholds: demographic parity,sex,Female,10345,0.950314,0.993011,0.497225
+Group thresholds: demographic parity,sex,Not available,2787,0.964837,0.995706,0.386667
+Group thresholds: demographic parity,age,25-34,11579,0.965196,0.99529,0.468085
+Group thresholds: demographic parity,age,35-44,11209,0.955571,0.995903,0.475992
+Group thresholds: demographic parity,age,45-54,8273,0.955155,0.993948,0.483631
+Group thresholds: demographic parity,age,55-64,7486,0.959391,0.994096,0.48524
+Group thresholds: demographic parity,age,65-74,5118,0.966979,0.994426,0.518248
+Group thresholds: demographic parity,age,<25,2158,0.951344,0.991841,0.451777
+Group thresholds: demographic parity,age,>74,1656,0.961957,0.993561,0.514563
+Group thresholds: demographic parity,age,Not available,30,0.866667,0.923077,0.5
+Group thresholds: equal opportunity,race,White,33451,0.962751,0.995572,0.484054
+Group thresholds: equal opportunity,race,Not available,7923,0.954941,0.994504,0.491473
+Group thresholds: equal opportunity,race,Asian,3397,0.946129,0.993224,0.543624
+Group thresholds: equal opportunity,race,Joint (two races),1333,0.966242,0.994427,0.493506
+Group thresholds: equal opportunity,race,Black,893,0.913774,0.98708,0.563025
+Group thresholds: equal opportunity,race,American Indian / Alaska Native,337,0.905045,0.97193,0.461538
+Group thresholds: equal opportunity,race,Other minority races,175,0.954286,0.993464,0.318182
+Group thresholds: equal opportunity,ethnicity,Not Hispanic or Latino,30623,0.964471,0.995327,0.489482
+Group thresholds: equal opportunity,ethnicity,Hispanic or Latino,7475,0.934983,0.993183,0.504577
+Group thresholds: equal opportunity,ethnicity,Not available,7300,0.959178,0.99436,0.462633
+Group thresholds: equal opportunity,ethnicity,Joint (Hispanic and not),2111,0.963998,0.995988,0.581197
+Group thresholds: equal opportunity,sex,Joint (male and female),19333,0.969172,0.995674,0.482726
+Group thresholds: equal opportunity,sex,Male,15044,0.952273,0.995123,0.498851
+Group thresholds: equal opportunity,sex,Female,10345,0.949154,0.993541,0.516093
+Group thresholds: equal opportunity,sex,Not available,2787,0.961249,0.992974,0.4
+Group thresholds: equal opportunity,age,25-34,11579,0.964418,0.995197,0.478723
+Group thresholds: equal opportunity,age,35-44,11209,0.954679,0.996,0.487474
+Group thresholds: equal opportunity,age,45-54,8273,0.954551,0.993948,0.491071
+Group thresholds: equal opportunity,age,55-64,7486,0.958456,0.995104,0.51107
+Group thresholds: equal opportunity,age,65-74,5118,0.966589,0.994426,0.525547
+Group thresholds: equal opportunity,age,<25,2158,0.951807,0.993881,0.467005
+Group thresholds: equal opportunity,age,>74,1656,0.96256,0.992917,0.495146
+Group thresholds: equal opportunity,age,Not available,30,0.866667,0.923077,0.5

@@ -1,0 +1,35 @@
+dimension,value,api_count,local_count,api_loan_amount_sum,local_loan_amount_sum,count_match,sum_rel_diff
+action_taken,1,95029,95029,4.10625e+10,4.10625e+10,True,0
+action_taken,6,31963,31963,1.33984e+10,1.33984e+10,True,0
+action_taken,4,21023,21023,9.05848e+09,9.05848e+09,True,0
+action_taken,3,11691,11691,4.33724e+09,4.33724e+09,True,0
+action_taken,5,3114,3114,9.5631e+08,9.5631e+08,True,0
+action_taken,2,2917,2917,1.20966e+09,1.20966e+09,True,0
+action_taken,8,1263,1263,5.37325e+08,5.37325e+08,True,0
+action_taken,7,230,230,8.277e+07,8.277e+07,True,0
+construction_method,1,154617,154617,6.82413e+10,6.82413e+10,True,0
+construction_method,2,12613,12613,2.40128e+09,2.40128e+09,True,0
+derived_ethnicity,Not Hispanic or Latino,75599,75599,3.23812e+10,3.23812e+10,True,0
+derived_ethnicity,Ethnicity Not Available,54030,54030,2.5353e+10,2.5353e+10,True,0
+derived_ethnicity,Hispanic or Latino,30790,30790,1.00589e+10,1.00589e+10,True,0
+derived_ethnicity,Joint,6792,6792,2.84172e+09,2.84172e+09,True,0
+derived_ethnicity,Free Form Text Only,19,19,7.745e+06,7.745e+06,True,0
+derived_race,White,91733,91733,3.66963e+10,3.66963e+10,True,0
+derived_race,Race Not Available,57547,57547,2.64088e+10,2.64088e+10,True,0
+derived_race,Asian,7071,7071,3.35512e+09,3.35512e+09,True,0
+derived_race,Joint,4164,4164,1.82365e+09,1.82365e+09,True,0
+derived_race,Black or African American,4016,4016,1.55032e+09,1.55032e+09,True,0
+derived_race,American Indian or Alaska Native,2006,2006,5.5952e+08,5.5952e+08,True,0
+derived_race,Native Hawaiian or Other Pacific Islander,358,358,1.2494e+08,1.2494e+08,True,0
+derived_race,2 or more minority races,313,313,1.16885e+08,1.16885e+08,True,0
+derived_race,Free Form Text Only,22,22,7.09e+06,7.09e+06,True,0
+derived_sex,Joint,55034,55034,2.39861e+10,2.39861e+10,True,0
+derived_sex,Male,43981,43981,1.77068e+10,1.77068e+10,True,0
+derived_sex,Sex Not Available,40987,40987,1.999e+10,1.999e+10,True,0
+derived_sex,Female,27228,27228,8.95973e+09,8.95973e+09,True,0
+lien_status,1,160789,160789,7.01732e+10,7.01732e+10,True,0
+lien_status,2,6441,6441,4.69435e+08,4.69435e+08,True,0
+loan_type,1,106529,106529,4.74399e+10,4.74399e+10,True,0
+loan_type,2,41689,41689,1.52536e+10,1.52536e+10,True,0
+loan_type,3,17728,17728,7.60095e+09,7.60095e+09,True,0
+loan_type,4,1284,1284,3.482e+08,3.482e+08,True,0

@@ -1,0 +1,5 @@
+model,trials,val_log_loss,best_iteration,tuning_seconds,params
+Logistic regression,4,0.161931,0,0.605519,"{""C"": 10.0}"
+LightGBM,30,0.146777,310,15.6359,"{""objective"": ""binary"", ""metric"": ""binary_logloss"", ""num_threads"": 2, ""seed"": 0, ""bagging_freq"": 1, ""max_cat_to_onehot"": 8, ""cat_smooth"": 10.0, ""learning_rate"": 0.0304, ""num_leaves"": 28, ""min_child_samples"": 20, ""feature_fraction"": 0.91638, ""bagging_fraction"": 0.95701, ""lambda_l2"": 0.00604}"
+XGBoost,20,0.146216,304,17.885,"{""objective"": ""binary:logistic"", ""eval_metric"": ""logloss"", ""tree_method"": ""hist"", ""nthread"": 2, ""seed"": 0, ""max_cat_to_onehot"": 8, ""eta"": 0.0202, ""max_depth"": 8, ""min_child_weight"": 2.06888, ""subsample"": 0.87623, ""colsample_bytree"": 0.8155, ""reg_lambda"": 0.00397}"
+CatBoost,10,0.146893,479,182.287,"{""iterations"": 1500, ""loss_function"": ""Logloss"", ""od_type"": ""Iter"", ""od_wait"": 50, ""thread_count"": 2, ""random_seed"": 0, ""use_best_model"": true, ""learning_rate"": 0.03855, ""depth"": 7, ""l2_leaf_reg"": 1.62836}"

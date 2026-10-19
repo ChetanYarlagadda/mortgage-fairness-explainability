@@ -1,0 +1,10 @@
+comparison,k,top_k_overlap,sign_agreement,rank_corr_abs,same_top_feature
+LIME seed 0 vs seed 1,1,1,1,0.663031,1
+LIME seed 0 vs seed 1,3,0.744444,0.988889,0.663031,1
+LIME seed 0 vs seed 1,5,0.62,0.968333,0.663031,1
+SHAP vs LIME,1,0.0333333,1,-0.00451605,0.0333333
+SHAP vs LIME,3,0.255556,1,-0.00451605,0.0333333
+SHAP vs LIME,5,0.226667,1,-0.00451605,0.0333333
+"SHAP vs LIME, missing-value flags excluded",1,0.6,1,0.131522,0.6
+"SHAP vs LIME, missing-value flags excluded",3,0.333333,1,0.131522,0.6
+"SHAP vs LIME, missing-value flags excluded",5,0.38,0.983333,0.131522,0.6

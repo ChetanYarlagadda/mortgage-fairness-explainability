@@ -1,0 +1,9 @@
+method,top_feature,cases
+LIME,property_value_missing,30
+LIME seed 1,property_value_missing,30
+SHAP,dti,16
+SHAP,lender,6
+SHAP,aus,3
+SHAP,cltv,2
+SHAP,property_value_k,2
+SHAP,property_value_missing,1

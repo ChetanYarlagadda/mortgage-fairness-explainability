@@ -1,0 +1,19 @@
+model,metric,diff,diff_ci_low,diff_ci_high,p_value,reference,p_holm
+DTI lookup,roc_auc,-0.109608,-0.130074,-0.0888343,0.001,Logistic regression,0.018
+DTI lookup,ap,-0.136957,-0.159207,-0.115138,0.001,Logistic regression,0.018
+DTI lookup,log_loss,0.0268363,0.0217188,0.0321954,0.001,Logistic regression,0.018
+LightGBM,roc_auc,0.0277259,0.0171808,0.0381556,0.001,Logistic regression,0.018
+LightGBM,ap,0.0609233,0.0435198,0.0797815,0.001,Logistic regression,0.018
+LightGBM,log_loss,-0.0156184,-0.0194596,-0.0119371,0.001,Logistic regression,0.018
+XGBoost,roc_auc,0.0253469,0.0146659,0.0361501,0.001,Logistic regression,0.018
+XGBoost,ap,0.0610761,0.043029,0.0815814,0.001,Logistic regression,0.018
+XGBoost,log_loss,-0.0152539,-0.019347,-0.0113771,0.001,Logistic regression,0.018
+CatBoost,roc_auc,0.0238707,0.0127874,0.0350062,0.001,Logistic regression,0.018
+CatBoost,ap,0.0691857,0.0518122,0.0894412,0.001,Logistic regression,0.018
+CatBoost,log_loss,-0.0159102,-0.0199101,-0.0120907,0.001,Logistic regression,0.018
+XGBoost,roc_auc,-0.00237904,-0.00632349,0.00180296,0.244,LightGBM,1
+CatBoost,roc_auc,-0.00385526,-0.0103172,0.00311996,0.266,LightGBM,1
+XGBoost,ap,0.000152856,-0.00588936,0.00610274,0.926,LightGBM,1
+CatBoost,ap,0.00826247,-0.00118168,0.0174458,0.098,LightGBM,0.588
+XGBoost,log_loss,0.000364516,-0.00116748,0.00180074,0.638,LightGBM,1
+CatBoost,log_loss,-0.000291778,-0.00239709,0.00199823,0.83,LightGBM,1

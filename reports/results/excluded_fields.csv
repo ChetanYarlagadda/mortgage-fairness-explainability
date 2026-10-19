@@ -1,0 +1,16 @@
+field,reason
+derived_race / applicant & co-applicant race,protected attribute (audit only)
+derived_ethnicity / applicant & co-applicant ethnicity,protected attribute (audit only)
+derived_sex / applicant & co-applicant sex,protected attribute (audit only)
+"applicant_age, co-applicant_age, *_age_above_62",protected attribute (audit only)
+*_observed (race/ethnicity/sex collected by visual observation),protected-attribute metadata
+tract_minority_population_percent,close geographic proxy for race (audit only)
+"interest_rate, rate_spread, total_loan_costs, origination_charges, discount_points, lender_credits, total_points_and_fees","pricing fields, only reported for originated loans (outcome leak)"
+hoepa_status,'not applicable' (3) for every denial (outcome leak)
+purchaser_type,0 (not sold) for every denial (outcome leak)
+denial_reason-1..4,"reported only for denials; used to validate explanations, never as a feature"
+preapproval,"denied pre-approval requests are action 7, outside this population, so 'requested' implies approval by construction"
+initially_payable_to_institution,code 3 'not applicable' occurs only for denials (outcome leak)
+co-applicant_credit_score_type,duplicates has_coapplicant; otherwise not informative
+"prepayment_penalty_term, multifamily_affordable_units, manufactured_home_*",constant or not applicable in this population
+"derived_msa-md, state_code, census_tract",represented by county and tract-level features
