@@ -1,5 +1,7 @@
 # Explainable and Fair Credit Decisions on HMDA Mortgage Data
 
+[![CI](https://github.com/ChetanYarlagadda/mortgage-fairness-explainability/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/mortgage-fairness-explainability/actions/workflows/ci.yml)
+
 **How well can mortgage denials be predicted without protected attributes, what drives the predictions, and does
 the resulting model treat groups of applicants differently?** This project trains denial models on 47,509
 conventional home-purchase applications from Arizona's 2025 public HMDA data, explains them with SHAP and LIME,
@@ -356,6 +358,7 @@ notebooks/        analysis.ipynb, the walkthrough with every table
 data/reference/   the API aggregations used for the cross-check
 reports/          figures/ and results/ (every number quoted above)
 tests/            pytest suite (filter and HMDA codes, encoder, fairness metrics, mitigation, odds ratios, SHAP, LIME)
+.github/workflows/ CI: pyflakes and the pytest suite (synthetic HMDA-like records, no data download)
 ```
 
 ## License and citation
