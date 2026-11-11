@@ -61,6 +61,26 @@ def test_accuracy_threshold_matches_brute_force() -> None:
     assert np.isclose(((p >= t) == y).mean(), best)
 
 
+def test_accuracy_threshold_with_tied_scores() -> None:
+    # coarse scores like the DTI lookup's: flagging only part of a block of tied scores is not a threshold rule
+    p = np.repeat([0.9, 0.5, 0.1], 10)
+    y = np.concatenate([np.ones(10), [1] * 4 + [0] * 6, np.zeros(10)]).astype(int)
+    t = F.accuracy_threshold(y, p)
+    assert t == 0.9 and np.isclose(((p >= t) == y).mean(), 26 / 30)  # flagging the 0.5 block too: 24 / 30
+    # flagging one block or both is equally accurate (3 / 4): ties go to the highest threshold
+    assert F.accuracy_threshold(np.array([1, 1, 1, 0]), np.array([0.9, 0.9, 0.5, 0.5])) == 0.9
+    rng = np.random.default_rng(7)
+    for _ in range(20):
+        p = rng.choice([0.05, 0.2, 0.35, 0.6, 0.8], 200)
+        y = (rng.random(200) < p).astype(int)
+        t = F.accuracy_threshold(y, p)
+        cands = np.append(np.unique(p), np.inf)
+        accs = np.array([((p >= c) == y).mean() for c in cands])
+        assert np.isclose(((p >= t) == y).mean(), accs.max())
+        # ties in accuracy: the highest threshold, i.e. the fewest flags
+        assert ((p >= t) == (p >= cands[accs == accs.max()].max())).all()
+
+
 def test_metrics_holm_ece_wilson() -> None:
     assert np.allclose(M.holm([0.01, 0.04, 0.03]), [0.03, 0.06, 0.06])
     rng = np.random.default_rng(5)

@@ -139,13 +139,19 @@ def fit_threshold_optimizer(approve_score: np.ndarray, approved: np.ndarray, gro
 
 
 def accuracy_threshold(y: np.ndarray, p: np.ndarray) -> float:
-    """Single denial threshold that maximises accuracy (ties: the lowest such threshold)."""
-    order = np.argsort(-p)
-    ys = np.asarray(y)[order]
+    """Single denial threshold t (flag p >= t) that maximises accuracy; ties go to the highest such threshold.
+
+    Only cuts between distinct scores are candidates: flagging the top k is a threshold rule only if the k-th and
+    (k+1)-th highest scores differ, which matters for coarse scores such as the DTI lookup's.
+    """
+    p = np.asarray(p, float)
+    order = np.argsort(-p, kind="stable")
+    ys, ps = np.asarray(y)[order], p[order]
     # flag the top-k for every k: correct = denied flagged + approved not flagged
     tp = np.concatenate([[0], np.cumsum(ys)])
     fp = np.concatenate([[0], np.cumsum(1 - ys)])
     correct = tp + ((1 - ys).sum() - fp)
-    k = int(np.argmax(correct))
-    ps = np.asarray(p)[order]
+    realisable = np.ones(len(ps) + 1, dtype=bool)
+    realisable[1:-1] = ps[:-1] > ps[1:]
+    k = int(np.argmax(np.where(realisable, correct, -1)))
     return float(ps[k - 1]) if k > 0 else float(ps[0] + 1e-9)

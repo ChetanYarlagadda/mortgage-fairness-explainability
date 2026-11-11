@@ -26,13 +26,14 @@ saw it). Brackets are 95% bootstrap CIs.
 
 | Model (test fold) | ROC AUC | Average precision | Brier | ECE | Flagged at threshold | Denial precision / recall |
 |---|---:|---:|---:|---:|---:|---:|
-| DTI lookup (baseline) | 0.753 [0.732, 0.775] | 0.470 | 0.0465 | 0.0065 | 4.7% | 68% / 43% |
+| DTI lookup (baseline) | 0.753 [0.732, 0.775] | 0.470 | 0.0465 | 0.0065 | 3.2% | 86% / 37% |
 | Logistic regression (splines) | 0.862 [0.845, 0.878] | 0.607 | 0.0410 | 0.0052 | 4.2% | 82% / 46% |
 | **LightGBM** (Optuna, 30 trials) | **0.890** [0.875, 0.904] | 0.668 | 0.0372 | 0.0065 | 4.0% | 89% / 48% |
 | XGBoost (Optuna, 20 trials) | 0.888 [0.873, 0.902] | 0.668 | 0.0371 | 0.0048 | 4.2% | 87% / 50% |
 | CatBoost (Optuna, 10 trials) | 0.886 [0.871, 0.901] | **0.676** | **0.0369** | 0.0072 | 4.1% | 88% / 49% |
 
-<sub>Threshold: the accuracy-maximising cut-off chosen on the validation fold. Full table in
+<sub>Threshold: the accuracy-maximising cut-off chosen on the validation fold (for the DTI lookup, which has 20
+distinct scores, only cut-offs between distinct scores are possible). Full table in
 [`model_results.csv`](reports/results/model_results.csv); paired tests in
 [`model_significance.csv`](reports/results/model_significance.csv).</sub>
 
